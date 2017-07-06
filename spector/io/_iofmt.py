@@ -179,7 +179,7 @@ rinsland_header_regex = (
     "(?P<aperture>[\d.]+) mm "
     "Ap.ZA=(?P<zenith_angle>[\d.]+) "
     "S/N=(?P<sn_ratio>[\d ]+) "
-    "h=(?P<hour_avg>[\d.]+)"
+    "h=\s*(?P<hour_avg>[\d.]+)"
 )
 
 
